@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon form</title>
+</head>
+
+<body>
+    <main>
+        <form action="submit/">
+            <h1>Marathon Registration Form</h1>
+            <hr>
+            <section>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter First name" required>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter Last name" required>
+            </section>
+            <section>
+                <p>Select a Race</p>
+                <input type="radio" name="race-type" id="5k-run" value="5k-run">
+                <label for="5k-run">Fun Run 5K</label><br>
+
+
+                <input type="radio" name="race-type" id="full-run" value="full-run">
+                <label for="full-run">Full Marathon</label><br>
+
+
+                <input type="radio" name="race-type" id="half-run" value="half-run">
+                <label for="half-run">Half Marathon</label>
+                <p></p>
+                <p></p>
+
+            </section>
+            <section>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </section>
+            <p></p>
+            <p></p>
+            <section>
+                <label for="age">Select age group</label>
+                <select name="age" id="age">
+                    <option value="below-18">Below 18</option>
+                    <option value="18-35">18-35</option>
+                    <option value="35-60">35-60</option>
+                    <option value="60-above">60-above</option>
+                </select>
+            </section>
+            <p></p>
+            <p></p>
+            <section>
+                <button>Register</button>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>
