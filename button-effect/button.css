@@ -14,9 +14,8 @@ body {
 
 button {
     background: none;
-    color: cyan;
-    border: 2px solid cyan;
-    border-radius: 0.5em;
+    color: #ffa260;
+    border: 2px solid #ffa260;
     padding: 1em 2em;
     font-size: 1em;
     cursor: pointer;
@@ -25,8 +24,8 @@ button {
 }
 
 button:hover {
-    border-color: magenta;
+    border-color: #f1ff5c;
     color: white;
-    box-shadow: 0 0.5em 0.5em -0.4em magenta;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translateY(-0.25em);
 }
