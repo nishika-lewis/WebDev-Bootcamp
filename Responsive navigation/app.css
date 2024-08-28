@@ -1,0 +1,111 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    padding: 0%;
+}
+
+ul li {
+    display: inline;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+@media (max-width: 475px) {
+
+    .container,
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: blueviolet;
+    }
+
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+
+    h1 {
+        color: blueviolet;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    h1 {
+        color: red;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    h1 {
+        color: navy;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    h1 {
+        color: green;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+
+    h1 {
+        color: teal;
+    }
+}
