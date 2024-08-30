@@ -1,0 +1,146 @@
+.badge-container {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ceffef;
+}
+
+h2 {
+    margin: 0;
+    color: #2ebe8e;
+}
+
+p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown-box {
+    background-color: white;
+    padding: 5px 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-toggle::after {
+    margin-left: 5px;
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.dropdown-menu a {
+    color: #000;
+}
+
+.close-icon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.table-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+td:last-child {
+    width: 150px;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: #2ebe8e;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    /* Align to the right */
+    margin-top: 10px;
+}
+
+.pagination a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    /* Light grey border */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin-left: 5px;
+    background-color: #f9f9f9;
+    /* Light grey background for buttons */
+}
+
+.pagination a.active,
+.pagination a:hover {
+    background-color: #2ebe8e;
+    /* Teal when active or hovered */
+    color: white;
+    border-color: #2ebe8e;
+}
+
+.pagination .page-link {
+    border: none;
+    background-color: transparent;
+}
+
+.pagination .page-link.active {
+    background-color: #2ebe8e;
+    color: white;
+    border-color: #2ebe8e;
+}
+
+/* Adjust navbar padding to make it thinner */
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Adjust margin between user icon and user name */
+.navbar .user-name {
+    margin-left: 5px;
+    /* Reduced margin */
+}
